@@ -1,0 +1,41 @@
+img{
+    width: 500px;
+    height: 200px;
+    align-self: top left;
+}
+.course{
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
+.semester{
+    font-family: arial;
+    text-align: center;
+}
+h2{
+    font-family: arial;
+    font-weight: bold;
+}
+li{
+    font-family: arial;
+}
+p{
+    font-family: arial;
+}
+#table1{
+    font-family: arial;
+    position: relative;
+    border-collapse: collapse;
+    width: 75%; 
+}
+#table1 th, #table1 td{
+    border: 1px solid black;
+}
+#table2 {
+    font-family: arial;
+    position: relative;
+    width: 75%;
+}
+#table2 th{
+    text-decoration: underline;
+}
