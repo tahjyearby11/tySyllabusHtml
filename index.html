@@ -8,8 +8,57 @@
 -->
 <head>
     <title>tysyllabushtml</title>
-    <link rel="stylesheet" href="syllabusHtml.css">
+    <!--<link rel="stylesheet" href="syllabusHtml.css">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*All tags use the same font style for consitency throughout*/
+        /*Headings and list items are bolded in the same manner as the original syllabus*/
+        img{
+            width: 500px;
+            height: 200px;
+            align-self: top left;
+        }
+        .course{
+            font-family: arial;
+            font-weight: bold;
+            text-align: center;
+        }
+        .semester{
+            font-family: arial;
+            text-align: center;
+        }
+        h2{
+            font-family: arial;
+            font-weight: bold;
+        }
+        li{
+            font-family: arial;
+        }
+        p{
+            font-family: arial;
+        }
+
+        /*these 4 sections style each of the included tables*/
+        /*table1 includes a border with column and row seperation while table2 has underlines under the table headings
+        as in the original syllabus*/
+        #table1{
+            font-family: arial;
+            position: relative;
+            border-collapse: collapse;
+            width: 75%; 
+        }
+        #table1 th, #table1 td{
+            border: 1px solid black;
+        }
+        #table2 {
+            font-family: arial;
+            position: relative;
+            width: 75%;
+        }
+        #table2 th{
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
