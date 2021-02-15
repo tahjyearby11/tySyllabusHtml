@@ -1,3 +1,5 @@
+/*All tags use the same font style for consitency throughout*/
+/*Headings and list items are bolded in the same manner as the original syllabus*/
 img{
     width: 500px;
     height: 200px;
@@ -22,6 +24,10 @@ li{
 p{
     font-family: arial;
 }
+
+/*these 4 sections style each of the included tables*/
+/*table1 includes a border with column and row seperation while table2 has underlines under the table headings
+as in the original syllabus*/
 #table1{
     font-family: arial;
     position: relative;
